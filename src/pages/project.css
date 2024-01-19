@@ -1,0 +1,55 @@
+.project .card{
+    background-color: #171F38;
+    color: white;
+    border: 2px solid #808DAD;
+  /* color: #808DAD !important; */
+  border-radius: 5px;
+
+}
+.project .card:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+
+.sr{
+   object-fit: contain;
+}
+.project_description span{
+    /* border: 1px solid #808DAD68;  */
+    background-color:#808DAD68;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+@media only screen and (min-width: 992px) {
+
+.project_section_conatiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  
+  }
+  
+  .container.project {
+    flex: 1;
+    max-width: 25rem; /* Adjust the max-width as needed */
+    margin: 10px; /* Adjust the margin as needed */
+   
+  }
+}
+
+@media only screen and (max-width: 568px) {
+    
+  .projectpara{
+    text-align: center;
+    
+    
+  }
+
+
+}
+

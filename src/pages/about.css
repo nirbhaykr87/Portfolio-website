@@ -1,0 +1,11 @@
+
+.about_section{
+    /* border: 2px solid green; */
+border-radius: 55px;
+background: linear-gradient(145deg, #19213c, #151c32);
+box-shadow:  25px 25px 41px #0f1526,
+             -25px -25px 41px #1f294a;
+             color: #808DAD;
+             padding: 4%;
+}
+
