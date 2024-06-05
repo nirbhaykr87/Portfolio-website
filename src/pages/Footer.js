@@ -66,7 +66,7 @@ export default function Footer() {
 
 <div className="row  " >
 
-  <div className='text-center mt-3  footerNav '>
+  <div className='text-center col-md-12 col-lg-12 col-sm-12  mt-3  footerNav '>
 
 
 <NavLink style={{color:'#808DAD',textDecoration:'none'}} className="fw-bold mx-3 navhover" to="/" >
